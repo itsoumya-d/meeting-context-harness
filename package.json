@@ -1,0 +1,19 @@
+{
+  "name": "meeting-context-harness",
+  "version": "1.0.0",
+  "description": "TypeScript backend, PostgreSQL zero-downtime migration & query-plan harness, AWS Lambda ingestion worker, and deterministic multi-tenant agent harness for conversational context retrieval.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "pg-mem": "^3.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
